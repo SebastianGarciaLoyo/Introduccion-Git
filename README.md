@@ -3,3 +3,8 @@
 ## Comando de configuracion inicial
 * **git config -list**: Lista la configuracion actual de GIT para el usuario
 
+## Temas
+* Conectar repositorio remoto
+* Crear Ramas
+* Combinar Ramas
+* Gestion de ramas
