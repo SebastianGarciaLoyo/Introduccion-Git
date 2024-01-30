@@ -8,3 +8,5 @@
 * Crear Ramas
 * Combinar Ramas
 * Gestion de ramas
+* Restaurar cambios
+* Gestion De commits
