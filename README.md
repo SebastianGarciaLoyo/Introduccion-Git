@@ -11,3 +11,6 @@
 * Restaurar cambios
 * Gestion De commits
 * Resolver cambios
+* Trabajo colaborativo
+* test
+* Fin Git
