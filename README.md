@@ -10,3 +10,4 @@
 * Gestion de ramas
 * Restaurar cambios
 * Gestion De commits
+* Resolver cambios
