@@ -16,5 +16,26 @@
 </head>
 <body>
     <h1>Conflictos Con Git</h1>
+</head>
+<body>
+    <script>
+   Array.prototype.groupBy = function(fn){
+    return this.reduce((resultado, item) =>{
+        const key = fn(item);
+        resultado[key]= resultado[key] || [];
+        resultado[key].push(item);
+        return resultado; 
+    }, {})
+   }
+
+   const array = [
+    {"id": "1"},
+    {"id": "2"},
+    {"id": "3"}
+   ]
+
+   const arraygroup = array.groupBy(item => item.id)
+   console.log(arraygroup)
+</script>
 </body>
 </html>
