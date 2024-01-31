@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   Array.prototype.groupBy = function(fn){
+    return this.reduce((resultado, item) =>{
+        const key = fn(item);
+        resultado[key]= resultado[key] || [];
+        resultado[key].push(item);
+        return resultado; 
+    }, {})
+   }
+
+   const array = [
+    {"id": "1"},
+    {"id": "2"},
+    {"id": "3"}
+   ]
+
+   const arraygroup = array.groupBy(item => item.id)
+   console.log(arraygroup)
+</script>
+</body>
+</html>
